@@ -4,7 +4,7 @@ class StoreAdminController < ApplicationController
   def home
   end
 
-#layout macro 
+#layout macro
   def orders
     render :layout => "order_administration"
   end
